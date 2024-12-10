@@ -59,6 +59,21 @@ hr {
     margin-bottom: 115px;
 }
 
+.tm-site-header {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically (optional, depending on desired layout) */
+  }
+  
+  .tm-site-header-img {
+    display: block; /* Ensures image is treated as a block element */
+    margin-left: auto;
+    margin-right: auto; /* Center the image horizontally */
+    width: 90%; /* Or a specific width if you prefer */
+    max-width: 1954px;
+  }
+  
 .tm-site-logo {
     width: 75px;
     height: 75px;
